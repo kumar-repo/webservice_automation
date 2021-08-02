@@ -14,6 +14,7 @@ public class GetRequestApi {
 		//Base URL
 		RestAssured.baseURI="https://maps.googleapis.com";
 		
+		String var="kumar";
 		//passing parameters such as header, cookies, body using given () block
 		//passing request type such as GET,PUT,POST,DELETE using when () block
 		//passing assertions in then () block in order to validate response
